@@ -1,0 +1,20 @@
+body{
+	background-color: thistle;
+	border-right: 95px solid lavender;
+	border-left: 95px solid lavender;
+	text-align: center;}
+p{
+	font-family: monospace;
+	color: white;}
+h1{
+	color: indigo;
+	font-size: 60px;
+	font-family: sans-serif}
+h2{
+	color: indigo;
+	font-size: 30px;}
+h3{
+	color: indigo;
+	font-size: 20px;}
+em{
+	color: indigo;}
