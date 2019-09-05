@@ -1,0 +1,23 @@
+header{font-family: monospace}
+header{background-color: black}
+header{color: white;}
+header{font-size: 40px;}
+
+h2{color: black;}
+h2{background-color: white}
+h2{font-size: 90px;}
+
+body{font-family: serif}
+body{font-size: 20px}
+
+section{font-color: yellow;}
+
+em{font-style: italic}
+em{color: black;}
+
+section.venk{color: palevioletred;}
+section.dana{color: lightpink;}
+section.mayor{color: lightsalmon;}
+section.stantz{color: lightseagreen;}
+section.speng{color: lightskyblue;}
+section.zeddemore{color: mediumorchid;}
