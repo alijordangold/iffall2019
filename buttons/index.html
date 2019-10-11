@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; Ali Gold</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=MedievalSharp&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Almarai|Roboto+Condensed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+			a#btn_jude {
+				text-transform: uppercase;
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				color: red;
+				background-color: white;
+				font-size: 20px;
+				font-family: 'Bree Serif', serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_jude:hover {
+				background-color: red;
+				color: white;
+				border-radius: 30px;
+			}
+
+
+			a#btn_apple {
+				display: inline-block;
+				margin-top: 75px;
+				background-color: lightgrey;
+				height: 100px;
+				width: 100px;
+				border-radius: 50%
+			}
+			
+			a#btn_apple > img {
+				margin-top: 22px;
+				height: 50px;
+				width: 50px;
+			}
+
+			a#btn_apple:hover {
+				background: black;
+			}
+
+			a#btn_bissingers {
+				background-color: #c09620;
+				font-family: 'MedievalSharp', cursive;
+				display: inline-block;
+				margin:auto;
+				margin-top: 80px;
+				padding: 6px 16px;
+				color: white;
+				font-size: 90px;
+				text-decoration: none;
+			}
+
+			a#btn_bissingers:hover {
+				font-family: 'MedievalSharp', cursive;
+				color: white;
+				text-decoration: none;
+				transform: scale(1.5);
+				transition: all .2s;
+			}
+
+			a#btn_color {
+				font-family: 'Oswald', sans-serif;
+				display: block;
+				width: 100px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				padding-left: 3px;
+				padding-bottom: 3px;
+				background-color: yellow;
+				color: #00BFFF;
+				text-align: center;
+				font-size: 20px;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_color:hover {
+				background-color: hotpink;
+			}
+
+			a#btn_newyorker {
+				font-family: 'Libre Caslon Text', serif;				
+				display: block;
+				color: black;
+				margin-top: 100px;
+				padding: 10px 40px 0 60px;
+				text-align: center;
+				font-size: 20px;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_newyorker:hover {
+				transform: rotate(20deg);
+			}
+
+			a#btn_npr {
+				font-family: 'Oswald', sans-serif;			
+				display: block;
+				color: darkblue;
+				margin-top: 50px;
+				padding: 0px 40px 0 80px;
+				text-align: center;
+				font-size: 80px;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			a#btn_npr:hover {
+				color: crimson;
+				transform: scale(1.5);
+				transition: all .2s;
+			}
+			
+			a#btn_facebook {
+				background-color: #3578e5;
+				font-family: 'Oswald', sans-serif;	
+				display: inline-block;
+				margin: auto;
+				border: #3578e5 10px solid;
+				margin-top: 50px;
+				height: 110px;
+				width: 80px;
+				padding-top: 40px;
+				padding-left: 50px;
+				color: white;
+				font-size: 100px;
+				font-style: bold;
+				text-decoration: none;
+			}
+
+			a#btn_facebook:hover {
+				background-color: white;
+				color:#3578e5;
+				text-decoration: none;
+			}
+
+
+			a#btn_instagram {
+				background: #ffff32;
+				background: -moz-linear-gradient(45deg,  #ffff32 0%, #ffac30 34%, #fc28a4 58%, #8c00ff 100%);
+				background: -webkit-linear-gradient(45deg,  #ffff32 0%,#ffac30 34%,#fc28a4 58%,#8c00ff 100%);
+				background: linear-gradient(45deg,  #ffff32 0%,#ffac30 34%,#fc28a4 58%,#8c00ff 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff32', endColorstr='#8c00ff',GradientType=1 );
+				font-family: 'Oswald', sans-serif;	
+				display: inline-block;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 30px;
+				color: white;
+				font-size: 20px;
+				font-style: bold;
+				text-decoration: none;
+				height: 70px;
+				width: 100px;
+				border-radius: 20px;
+			}
+
+			a#btn_instagram:hover {
+				transform: scale(2);
+			}
+
+			a#btn_tnshow{
+				padding-top: 25px;
+				background-color: #122847;
+				font-family: 'Roboto Condensed', sans-serif;
+				text-align: right;
+				border-radius: 10px;
+				padding-right: 10px;
+				display: inline-block;
+				margin: auto;
+				margin-top: 50px;
+				height: 120px;
+				width: 160px;
+				color: white;
+				font-size: 30px;
+				font-style: bold;
+				font-color: white;
+				text-decoration: none;
+			}
+
+			a#btn_tnshow > div {
+				font-family: 'Almarai', sans-serif;
+				font-size: 10px;
+			}
+
+			a#btn_tnshow:hover {
+				background-color: black;
+			}
+
+			a#btn_mobot{
+				padding-top: 75px;
+				display: inline-block;
+				margin: auto;
+				font-family: 'Grenze', serif;
+				color: #486f19;
+				text-decoration: none;
+				font-size: 20px;
+				width: 200px;
+			}
+
+			a#btn_mobot:hover {
+				color: limegreen;
+			}
+
+			a#btn_ideo{
+				color: black;
+				background-color: #f26531ad;
+				font-family: 'Raleway', sans-serif;
+				font-size: 40px;
+				text-decoration: none;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				display: inline-block;
+			}
+
+			a#btn_ideo:hover {
+				background-color: #6fcbc999;
+			}
+
+			a#btn_fit {
+				display: inline-block;
+				background-color: #00b0b9;
+				height: 100px;
+				width: 80px;
+				border-radius: 50%;
+				padding-top: 40px;
+				padding-left: 60px;
+				color: navy;	
+				font-family: 'Oswald', sans-serif;
+				font-size: 20px;
+				margin: auto;
+				margin-top: 50px;
+				text-decoration: none;
+			}
+
+			a#btn_fit:hover {
+				color: #D35174;
+				border: #D35174 4px solid;
+			}
+
+			a#btn_oldnavy {
+				color: navy;
+				border: none;
+				background-color: white;
+				padding: 40% 40% 40% 40%;
+				margin: auto;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				border-radius: 50%;
+				font-weight: bold;
+				font-size: 25px;
+			}
+
+			a#btn_oldnavy:hover {
+				background-color: navy;
+				color: white;
+			}
+			
+			a#btn_sardella {
+				background-color: navy;
+				display: inline-block;
+				color: #00ffce;
+				height: 50px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 100px;
+				padding: 0px 40px 0 40px;
+				font-size: 30px;
+				font-family: 'Bree Serif', serif;
+				font-weight: bold;
+				text-decoration: none;
+				border-radius: 15px;
+			}
+
+			a#btn_sardella:hover {
+				background-color: #00ffce;
+				color: navy;
+				border-radius: 15px;
+			}
+
+			a#btn_AOTL{
+				background-color: black;
+				font-family: 'Raleway', sans-serif;				
+				color: lightgrey;
+				padding-top: 30px;
+				margin: 50px 50px 50px 50px;
+				text-decoration: none;
+				display: inline-block;
+				height: 150px;
+				width: 90px;
+				margin:auto;
+				color: white;
+				font-size: 20px;
+				text-decoration: none;
+				border: 15px yellow solid;
+			}
+
+			a#btn_AOTL > div{
+				font-family: 'Raleway', sans-serif;
+				font-size: 10px;
+			}
+
+			a#btn_AOTL:hover {
+				font-family: 'Raleway', sans-serif;				
+				color: white;
+				text-decoration: none;
+				transform: scale(.5);
+				transition: all .2s;
+				border: none;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Ali Gold</h1>
+			
+			<div class="button_container">
+				<a href="https://www.stjude.org" target="_blank" id="btn_jude">St. Jude</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple"> <img src="images/apple.png" alt="Apple logo"> </a> 
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.bissingers.com/" target="_blank" id="btn_bissingers">B</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://thecolorrun.com/" target="_blank" id="btn_color">THE <br> COLOR <br> RUN</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.newyorker.com/" target="_blank" id="btn_newyorker">NEW YORKER</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.npr.org/" target="_blank" id="btn_npr">npr</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.facebook.com/" target="_blank" id="btn_facebook">f</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_instagram">instagram</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nbc.com/the-tonight-show" target="_blank" id="btn_tnshow"> <div>the</div>TONIGHT SHOW<div>with jimmy fallon</div></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_mobot">MISSOURI BOTANICAL GARDEN</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://ideo.org" target="_blank" id="btn_ideo">IDEO.ORG</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fit">fitbit</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldnavy">OLD NAVY</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://sardellastl.com/" target="_blank" id="btn_sardella">Sardella</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://allontheline.org/" target="_blank" id="btn_AOTL"><div>all on the</div>L<br>I<br>N<br>E</a>
+			</div>
+
+		</div>	
+
+	</body>
+</html>
