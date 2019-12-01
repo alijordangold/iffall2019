@@ -1,0 +1,210 @@
+nav {
+	display: none;
+}
+
+hr {
+	border: .5px solid DarkSlateGrey;
+	margin: 0;
+}
+
+#home {
+	width: 100%;
+	box-sizing: border-box;
+	background-image: url('../images/background1.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-left: 20px;
+	margin: 0;
+}
+
+#home > h1 {
+	text-align: left;
+	font-weight: 100px;
+	font-family: 'Oswald', sans-serif;
+	color: DarkSlateGrey;
+	font-size: 30px;
+	}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+	color: DarkSlateGrey;
+	font-size: 50px;
+	}
+
+footer {
+	background-color: DarkSlateGrey;
+	padding-bottom: 20px; 
+	padding-top: 20px;
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	width: 100%;
+	color: Silver;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ededed+0,6b6b6b+100,6b6b6b+100,6b6b6b+100 */
+	background: rgb(237,237,237); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(237,237,237,1) 0%, rgba(107,107,107,1) 100%, rgba(107,107,107,1) 100%, rgba(107,107,107,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(237,237,237,1) 0%,rgba(107,107,107,1) 100%,rgba(107,107,107,1) 100%,rgba(107,107,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(237,237,237,1) 0%,rgba(107,107,107,1) 100%,rgba(107,107,107,1) 100%,rgba(107,107,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#6b6b6b',GradientType=0 ); /* IE6-9 */; 
+	margin: 0;
+}
+
+a {
+	color: silver;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 50px;
+}
+
+a:hover {
+	color: black;
+}
+
+
+a:active {
+	text-decoration: underline;
+}
+
+#home > h1 {
+	margin: 0;
+	color: WhiteSmoke;
+	font-size: 90px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+	color: DarkSlateGrey;
+	font-size: 50px;
+}
+
+section {
+	width: 70%;
+	margin: auto;
+	padding:auto;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+#caption > p {
+	font-size: 10px;
+	font-style: italic;
+	}
+
+#caption > img {
+	max-width: 100%;
+}
+
+#frame > p {
+	font-size: 10px;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+#frame > iframe {
+	padding: 10px;
+}
+
+#frame {
+	padding-bottom: 25px;
+}
+
+@media (min-width:800px) {
+	#home {
+		width: 100%;
+		box-sizing: border-box;
+		background-image: url('../images/background1.jpg');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		padding-top: 200px;
+		padding-bottom: 200px;
+		padding-left: 20px;
+		margin: 0;
+	}
+
+	#caption {
+		width: 50%;
+		float: right;
+		padding-left: 30px;
+	}
+
+	#caption > p {
+		font-size: 10px;
+		font-style: italic;
+	}
+
+	#caption > img {
+		max-width: 100%;
+	}
+
+	nav {
+		position: fixed;
+		top: 0;
+		display: block;
+		text-align: center;
+		height: 40px;
+		width: 100%;
+		background-color: DarkSlateGrey;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	h1 {
+		text-align: left;
+		font-weight: 300;
+		font-family: 'Oswald', sans-serif;
+		color: DarkSlateGrey;
+		font-size: 50px;
+	}
+	
+	#background > img {
+		padding-left: 20px;
+		width: 300px;
+		float: right;
+		padding-bottom: 20px;
+	}
+
+	#boyband > img {
+		padding-left: 20px;
+		width: 300px;
+		float: right;
+	}
+
+	#frame > p {
+		font-size: 10px;
+		font-style: italic;
+		padding-left: 20px;
+	}
+
+	#frame > iframe {
+		padding: 0;
+	}
+
+	#frame {
+		padding-bottom: 25px;
+	}
+}
